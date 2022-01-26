@@ -15,30 +15,7 @@ def home():
 
 
 
-
 if __name__ == '__main__':
 
     app.run(debug=True)
-
-
-# import random
-
-# def randolist(int):
-#     outlist = []
-#     for i in range(int):
-#         outlist.append(random.randint(1,100000))
-#     print(outlist)
-#     return outlist
-
-# def largest(list):
-#     j = 0
-#     for i in list:
-#         if i >= j:
-#             j = i
-#     print(j) 
-        
-
-# if __name__ == '__main__':
-    
-#     largest(randolist(10))
 

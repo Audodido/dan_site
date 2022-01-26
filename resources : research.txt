@@ -1,0 +1,6 @@
+https://dev.to/lordghostx/how-to-host-flask-applications-on-namecheap-cpanel-299b
+
+
+
+On using adobe fonts in css
+https://helpx.adobe.com/fonts/using/add-fonts-website.html
