@@ -41,19 +41,19 @@ function addText() {
     if (printCount <= string.length) {
     // for (let i=0; i < string.length; i++) {
         if (string[printCount] == buy) {
-            q.innerHTML += "<a href ="+string[printCount]+" style=\"color: silver\" target=\"_blank\">buy vinyl/digi</a>" 
+            q.innerHTML += "<a href ="+string[printCount]+" target=\"_blank\">buy vinyl/digi</a>" 
             q.innerHTML += "<br>"
         } else if (string[printCount] == email) {
-            q.innerHTML += "<a href ="+string[printCount]+" style=\"color: silver\" target=\"_blank\">email</a>" 
+            q.innerHTML += "<a href ="+string[printCount]+" target=\"_blank\">email</a>" 
             q.innerHTML += "<br>"
         } else if (string[printCount] == twitter) {
-            q.innerHTML += "<a href ="+string[printCount]+" style=\"color: silver\" target=\"_blank\">twitter</a>" 
+            q.innerHTML += "<a href ="+string[printCount]+" target=\"_blank\">twitter</a>" 
             q.innerHTML += "<br>"
         } else if (string[printCount] == insta) {
-            q.innerHTML += "<a href ="+string[printCount]+" style=\"color: silver\" target=\"_blank\">insta</a>" 
+            q.innerHTML += "<a href ="+string[printCount]+" target=\"_blank\">insta</a>" 
             q.innerHTML += "<br>"
         } else if (string[printCount] == facebook) {
-            q.innerHTML += "<a href ="+string[printCount]+" style=\"color: silver\" target=\"_blank\">facebook</a>"
+            q.innerHTML += "<a href ="+string[printCount]+" target=\"_blank\">facebook</a>"
         }
         // q.innerHTML += "<br>"
         printCount += 1

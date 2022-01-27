@@ -32,9 +32,6 @@ body {
 }
 
 #empty {
-    /* font-family: 'Courier New', Courier, monospace; */
-    font-family: 'futura';
-    /* font-family: juniper-std, sans-serif; */
     z-index: 1;
     position: absolute;
     width: 50%;
@@ -43,12 +40,20 @@ body {
     text-align: left;
     font-size: 275%;
     font-weight: 400;
-    background-color: rgba(6,116,110,.3);
-    /* color: red; SEE .JS FOR COLOR*/
-    /* text-shadow: 1px .5px 2px; */
-    /* margin:0 auto; */
-} 
+    /* background-color: rgba(6,116,110,.3); */
+    background-color: rgba(0,0,0,.1);
+}
 
+a {
+    color:rgba(4,116,109,.5);
+    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'futura'; */
+    /* font-family: juniper-std, sans-serif; */
+}
+
+a:hover {
+    color:blue;
+}
 
 
 #box {
