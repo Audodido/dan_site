@@ -6,15 +6,9 @@ var facebook = "https://www.facebook.com/thes.ftf.cus/"
 var h = document.getElementById("day")
 var q = document.getElementById("empty")
 
-var n =  new Date();
-var y = n.getFullYear();
-var m = n.getMonth() + 1;
-var d = n.getDate();
-document.getElementById("date").innerHTML = n;
+// q.innerHTML += "<a href ="+string[printCount]+" style=\"color: silver\" target=\"_blank\">buy</a>" 
 
-h.innerHTML += " s-ft f-cus";
-
-
+h.innerHTML += " f-cus";
 
 // ----------------------------------------------
 // TEXT COLOR CHANGER
@@ -37,7 +31,6 @@ h.innerHTML += " s-ft f-cus";
 // ----------------------------------------------
 // iterate over text so it appears one at time
 
-// var string = ["s", "f", "t", " ", "f", "c", "s", " link: "]
 var string = [buy, email,twitter,insta,facebook]
 
 var printCount = 0
@@ -48,7 +41,7 @@ function addText() {
     if (printCount <= string.length) {
     // for (let i=0; i < string.length; i++) {
         if (string[printCount] == buy) {
-            q.innerHTML += "<a href ="+string[printCount]+" style=\"color: silver\" target=\"_blank\">buy</a>" 
+            q.innerHTML += "<a href ="+string[printCount]+" style=\"color: silver\" target=\"_blank\">buy vinyl/digi</a>" 
             q.innerHTML += "<br>"
         } else if (string[printCount] == email) {
             q.innerHTML += "<a href ="+string[printCount]+" style=\"color: silver\" target=\"_blank\">email</a>" 
@@ -64,10 +57,8 @@ function addText() {
         }
         // q.innerHTML += "<br>"
         printCount += 1
-        // console.log(printCount)
     }
     }
-
 
 
 setInterval(addText, 450)

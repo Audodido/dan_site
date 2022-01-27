@@ -33,20 +33,23 @@ body {
 
 #empty {
     /* font-family: 'Courier New', Courier, monospace; */
-    font-family: sans-serif;
+    font-family: 'futura';
+    /* font-family: juniper-std, sans-serif; */
     z-index: 1;
     position: absolute;
     width: 50%;
     top: 25%;
     left: 25%;
     text-align: left;
-    color: silver;
     font-size: 275%;
     font-weight: 400;
-    background-color: rebeccapurple;
+    background-color: rgba(6,116,110,.3);
+    /* color: red; SEE .JS FOR COLOR*/
     /* text-shadow: 1px .5px 2px; */
     /* margin:0 auto; */
 } 
+
+
 
 #box {
     width: 80%;
@@ -57,8 +60,9 @@ body {
     z-index: 0;
     padding: 10px;
     border: 1px solid;
-    border-color: #fcb9b6;
+    border-color: #07726d;
     margin: 0;
     position: absolute;
     text-shadow: 22px 45px 10px;
   }
+

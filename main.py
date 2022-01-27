@@ -7,7 +7,8 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     # today = datetime.today().strftime('%Y-%m-%d')
-    day = "2022-11-03"
+    # day = "2022-11-03"
+    day = "the s-ft"
     color = "white"
     return render_template('index.html', day = day, color=color)
 
