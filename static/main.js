@@ -6,8 +6,15 @@ var facebook = "https://www.facebook.com/thes.ftf.cus/"
 var h = document.getElementById("day")
 var q = document.getElementById("empty")
 
+var n =  new Date();
+var y = n.getFullYear();
+var m = n.getMonth() + 1;
+var d = n.getDate();
+document.getElementById("date").innerHTML = n;
 
 h.innerHTML += " s-ft f-cus";
+
+
 
 // ----------------------------------------------
 // TEXT COLOR CHANGER
@@ -57,6 +64,7 @@ function addText() {
         }
         // q.innerHTML += "<br>"
         printCount += 1
+        // console.log(printCount)
     }
     }
 
