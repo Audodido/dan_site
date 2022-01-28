@@ -7,7 +7,6 @@ var h = document.getElementById("date")
 var q = document.getElementById("empty")
 var r = document.getElementById("line2")
 
-// q.innerHTML += "<a href ="+string[printCount]+" style=\"color: silver\" target=\"_blank\">buy</a>" 
 
 h.innerHTML += "the s-ft \<br>";
 r.innerHTML += "f-cus";
