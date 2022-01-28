@@ -15,16 +15,26 @@ h1 {
     /* this color/text-shadow combo creates the blur effect */
     color: transparent;
     text-shadow: 4px 8px 15px #fcb9b6;
-    /* text-shadow: 4px 8px 15px; */
     font-family: juniper-std, sans-serif;
     font-style: normal;
     font-weight: 400;
     text-align: center;
     font-size: 1600%;
+    margin:-20px;
+    padding-top: 2%;
     opacity: 0.6;
-    position:relative;
+    position: relative;
     z-index: 0;
+    margin:0px;
+    line-height: 0.9em;
     /* background: purple; */
+}
+
+#line2 {
+    margin: -40px;
+    font-size: 2500%;
+    /* width: fit-content; */
+    /* color:red; */
 }
 
 body {
@@ -37,24 +47,23 @@ body {
     width: 50%;
     top: 25%;
     left: 25%;
-    text-align: left;
+    text-align: center;
     font-size: 275%;
     font-weight: 400;
-    /* background-color: rgba(6,116,110,.3); */
-    background-color: rgba(0,0,0,.1);
+    background-color: rgba(6,116,110,.3);
+    /* background-color: rgba(0,0,0,.1); */
 }
 
 a {
-    color:rgba(4,116,109,.5);
-    font-family: 'Times New Roman', Times, serif;
-    /* font-family: 'futura'; */
-    /* font-family: juniper-std, sans-serif; */
+    color:silver;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'futura';
+    font-weight:100;
 }
 
 a:hover {
     color:blue;
 }
-
 
 #box {
     width: 80%;
@@ -70,4 +79,12 @@ a:hover {
     position: absolute;
     text-shadow: 22px 45px 10px;
   }
+
+img {
+    position: relative;
+    opacity: 1;
+    top: 10%;
+    left: 20%;
+    z-index: 0;
+}
 

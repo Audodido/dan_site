@@ -3,13 +3,14 @@ var email = "mailto:s.ftf.cus@gmail.com"
 var twitter = "https://twitter.com/TheS_ftF_cus"
 var insta = "https://www.instagram.com/thes_ftf_cus/"
 var facebook = "https://www.facebook.com/thes.ftf.cus/"
-var h = document.getElementById("day")
+var h = document.getElementById("date")
 var q = document.getElementById("empty")
+var r = document.getElementById("line2")
 
 // q.innerHTML += "<a href ="+string[printCount]+" style=\"color: silver\" target=\"_blank\">buy</a>" 
 
-h.innerHTML += " f-cus";
-
+h.innerHTML += "the s-ft \<br>";
+r.innerHTML += "f-cus";
 // ----------------------------------------------
 // TEXT COLOR CHANGER
 
