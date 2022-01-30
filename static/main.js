@@ -9,7 +9,7 @@ var r = document.getElementById("line2")
 
 
 h.innerHTML += "the s-ft \<br>";
-r.innerHTML += "f-cus";
+r.innerHTML += "f - c u s";
 // ----------------------------------------------
 // TEXT COLOR CHANGER
 
