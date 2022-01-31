@@ -83,10 +83,38 @@ a:hover {
   }
 
 #circle {
+    width:40%;
+    height:40%;
     position: relative;
     opacity: 1;
     display: block;
     margin: auto;
     z-index: 100;
     padding: 20px;
+}
+
+@media screen and (max-width: 500px) {
+    .bigletters {
+        color: #fcb9b6;
+        opacity: .25;
+        margin: 10%;    
+    }
+
+    .maincenter {
+        margin: auto;
+        width: 100%;
+        padding: 0px;
+    }
+
+    #circle {
+        /* position: absolute; */
+        padding: 10px;
+        width:90%;
+        height:90%;
+    }
+
+    #box {
+        padding:0;
+        /* position: absolute; */
+    }
 }
