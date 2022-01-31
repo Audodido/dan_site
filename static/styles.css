@@ -16,6 +16,7 @@ html {
 }
 
 .bigletters {
+    display: block;
     color: transparent;
     text-shadow: 4px 8px 15px #fcb9b6;
     font-family: juniper-std, sans-serif;
