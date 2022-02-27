@@ -1,5 +1,5 @@
 var buy = "https://thes-ftf-cus.bandcamp.com/album/lousy-w-love"
-var stream = "https://ditto.fm/you-me-and-all-the-salt-in-the-sea"
+var stream = "https://ditto.fm/yr-name-on-rice"
 var email = "mailto:s.ftf.cus@gmail.com"
 var twitter = "https://twitter.com/TheS_ftF_cus"
 var insta = "https://www.instagram.com/thes_ftf_cus/"
